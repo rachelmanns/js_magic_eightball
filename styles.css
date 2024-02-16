@@ -1,17 +1,32 @@
 #main-background {
     background-color: rgb(236, 177, 236);
+    border: 1px solid red;
 }
 
-#body-image {
-    display: inline-flex;
+#body-container {
+    flex-direction: column;
     justify-content: center;
+    border: 1px solid red;
 }
 
 #eightball-image {
     max-width: 45%;
-    po
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
 }
 
+
+#heading-3 {
+    text-align: center; 
+    color: purple;
+    font-size: 18px;
+    font-family: Sixtyfour;
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+
+}
 
 
 .title-one {
@@ -19,4 +34,5 @@
     color: purple;
     font-size: 35px;
     font-family: Sixtyfour;
+    border: 1px solid red;
 }
