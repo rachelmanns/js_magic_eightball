@@ -1,29 +1,29 @@
 #main-background {
     background-color: rgb(236, 177, 236);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #body-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #eightball-image-box {
     max-width: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
+    /* border: 1px solid red; */
 }
   
 
 
 #eightball-image {
     max-width: 350px;
-    border: 1px solid red;
-    display: flex,
+    display: flex;
     justify-content: center;
+    /* border: 1px solid red; */
    
 }
 
@@ -33,9 +33,9 @@
     color: purple;
     font-size: 18px;
     font-family: Sixtyfour;
-    border: 1px solid red;
     justify-content: center;
     display: flex;
+    /* border: 1px solid red; */
 
 }
 
@@ -45,5 +45,5 @@
     color: purple;
     font-size: 35px;
     font-family: Sixtyfour;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
