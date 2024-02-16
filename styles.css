@@ -1,0 +1,22 @@
+#main-background {
+    background-color: rgb(236, 177, 236);
+}
+
+#body-image {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#eightball-image {
+    max-width: 45%;
+    po
+}
+
+
+
+.title-one {
+    text-align: center;
+    color: purple;
+    font-size: 35px;
+    font-family: Sixtyfour;
+}
