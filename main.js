@@ -1,10 +1,13 @@
+const imageClick = document.querySelector('#eightball-image');
+
 //Using a prompt, ask the the user's name and then store that name in a variable called userName
 const userName = prompt("Hello seeker of wisdom, what is your name?");
 
 //Alert to say "Hello ${userName}. I can see you have questions for me..."
 alert(`Hello ${userName}. I can see you have questions for me...`);
 
-
+//Prompt to ask the user for their question for the magic eightBall
+//const userQuestion = prompt(`Greetings ${userName}. Ask me any yes/no question and I shall reveal your fate...`);
 
 // EVERYTHING ABOVE IS NEW ^ //
 
