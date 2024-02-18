@@ -1,6 +1,17 @@
-let userName = "Juniper";
+//Using a prompt, ask the the user's name and then store that name in a variable called userName
+const userName = prompt("Hello seeker of wisdom, what is your name?");
 
-userName ? console.log(`Hello ${userName}!`) : console.log("Hello!");
+//Alert to say "Hello ${userName}. I can see you have questions for me..."
+alert(`Hello ${userName}. I can see you have questions for me...`);
+
+
+
+// EVERYTHING ABOVE IS NEW ^ //
+
+
+//let userName = "Juniper";//
+
+//userName ? console.log(`Hello ${userName}!`) : console.log("Hello!");
 
 
 let userQuestion = "Will I get a surprise gift this weekend?";
