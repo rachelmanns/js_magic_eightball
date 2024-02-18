@@ -5,6 +5,8 @@ const eightballImage = document.getElementById('eightball-image');
 
 //variable.addEventListener("click", )
 
+
+
 //Using a prompt, ask the the user's name and then store that name in a variable called userName
 const userName = prompt("Hello seeker of wisdom, what is your name?");
 
@@ -64,7 +66,7 @@ eightballResponse.innerHTML = eightBall;
 };
 
 
-clickBall();
+eightballImage.addEventListener("click", clickBall)
 
 //let userName = "Juniper";//
 
